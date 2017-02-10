@@ -9,10 +9,12 @@ This project uses two ways to build a movie recommendation system in spark. The 
 ## Installation
 * Prerequisites
 '''
+
 - install hadoop 2.7.1 single node cluster on unbuntu 14.10
 - install spark 2.0.1 from source
 - export $SPARK_HOME tp PATH 
 '''
+
 * Modify 'build.sbt' file based on your installation version of scala and spark.
 * Compile and generate the jar file with 'build.sbt': 
 	> sbt package
@@ -35,5 +37,5 @@ This project uses two ways to build a movie recommendation system in spark. The 
   - ./target/tmp/CE2 data structure: <count,MSE>. 'count' n is the number of rating . And 'MSE' is the average mean square error (MSE) of movies that was rated by n users in the training data, using our double ALS algorithm. 
 
 ## Detailed Report
-- paper: 'https://drive.google.com/open?id=0B_HlYDbGYXySOXlIWmpJVXNjdHc'
+- Paper: 'https://drive.google.com/open?id=0B_HlYDbGYXySOXlIWmpJVXNjdHc'
 - Slides: 'https://drive.google.com/open?id=1r5BGd-CQEBJTUPD9Q_7g6cZzOLD0pxLyxjhIXon79zs'
