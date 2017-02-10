@@ -9,10 +9,9 @@ This project uses two ways to build a movie recommendation system in spark. The 
 ## Installation
 * Prerequisites
 ```
-
-- install hadoop 2.7.1 single node cluster on unbuntu 14.10
-- install spark 2.0.1 from source
-- export $SPARK_HOME tp PATH 
+Install hadoop 2.7.1 single node cluster on unbuntu 14.10
+Install spark 2.0.1 from source
+Export $SPARK_HOME tp PATH 
 ```
 
 * Modify `build.sbt` file based on your installation version of scala and spark.
@@ -22,9 +21,7 @@ This project uses two ways to build a movie recommendation system in spark. The 
   Result:
 ```
   ...
-
   [info] Packaging /.../target/scala-2.11/hybridrec_2.11-1.0.jar 
-
   ...
 ```
 
