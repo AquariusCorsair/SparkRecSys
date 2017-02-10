@@ -4,14 +4,13 @@
 This project uses two ways to build a movie recommendation system in spark. The goal for this project is:
 * Implement our `Double ALS` algorithm in movie recommendation.
 * Compare our `Double ALS` algorithm with the oringinal ALS algorithm presented by spark library.
-* Prove that, for not so popular movies, i.e. thoes were rated by fewer users, our algorithm works better.
+* Prove that, for not so popular movies, i.e. thoes are rated by fewer users, our algorithm works better.
 
 ## Installation
 * Prerequisites
 ```
-Install hadoop 2.7.1 single node cluster on unbuntu 14.10
 Install spark 2.0.1 from source
-Export $SPARK_HOME tp PATH 
+Export $SPARK_HOME to PATH 
 ```
 
 * Modify `build.sbt` file based on your installation version of scala and spark.
@@ -29,7 +28,7 @@ Export $SPARK_HOME tp PATH
 
 	> $SPARK_HOME/bin/spark-submit --master local[4] target/scala-2.11/hybridrec_2.11-1.0.jar
 
-  The result is stored in folder ./target/tmp/CE1 and ./target/tmp/CE1
+  The result is stored in folder ./target/tmp/CE1 and ./target/tmp/CE2
   - ./target/tmp/CE1 data structure: <count,MSE>. `count` n is the number of rating . And `MSE` is the average mean square error (MSE) of movies that was rated by n users in the training data, using oringinal spark ALS library.
   - ./target/tmp/CE2 data structure: <count,MSE>. `count` n is the number of rating . And `MSE` is the average mean square error (MSE) of movies that was rated by n users in the training data, using our double ALS algorithm. 
 
