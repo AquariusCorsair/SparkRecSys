@@ -29,8 +29,8 @@ Export $SPARK_HOME to PATH
 	> $SPARK_HOME/bin/spark-submit --master local[4] target/scala-2.11/hybridrec_2.11-1.0.jar
 
   The result is stored in folder ./target/tmp/CE1 and ./target/tmp/CE2
-  - ./target/tmp/CE1 data structure: <count,MSE>. `count` n is the number of rating . And `MSE` is the average mean square error (MSE) of movies that was rated by n users in the training data, using oringinal spark ALS library.
-  - ./target/tmp/CE2 data structure: <count,MSE>. `count` n is the number of rating . And `MSE` is the average mean square error (MSE) of movies that was rated by n users in the training data, using our double ALS algorithm. 
+  - ./target/tmp/CE1 data structure: `<count,MSE>`. `count` n is the number of rating . And `MSE` is the average mean square error (MSE) of movies that was rated by n users in the training data, using oringinal spark ALS library.
+  - ./target/tmp/CE2 data structure: `<count,MSE>`. `count` n is the number of rating . And `MSE` is the average mean square error (MSE) of movies that was rated by n users in the training data, using our double ALS algorithm. 
 
 ## Detailed Report
 - Paper: 'https://drive.google.com/open?id=0B_HlYDbGYXySOXlIWmpJVXNjdHc'
