@@ -36,5 +36,5 @@ Export $SPARK_HOME to PATH
 Basically, our implementation is summerised in this image:
 [[/images/spark.png]]
 For more detailed report:
-- [Paper](/report/double-matrix-factorization .pdf)
-- [Slides](/report/CloudCompluting final presentation.pptx.pdf) 
+- Paper: 'https://drive.google.com/open?id=0B_HlYDbGYXySOXlIWmpJVXNjdHc'
+- Slides: 'https://drive.google.com/open?id=1r5BGd-CQEBJTUPD9Q_7g6cZzOLD0pxLyxjhIXon79zs'
