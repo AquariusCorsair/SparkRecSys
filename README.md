@@ -34,7 +34,8 @@ Export $SPARK_HOME to PATH
 
 ## Detailed Report
 Basically, our implementation is summerised in this image:
-![alt text](https://github.com/hualiu01/SparkRecognitionSystem/tree/master/images/spark.png "Logo Title Text 1")
-For more detailed report:
+![alt text](https://github.com/hualiu01/SparkRecognitionSystem/tree/master/images/spark.png "RDD Flow for our implementation")
+
+* For more detailed report:
 - [Paper](https://github.com/hualiu01/SparkRecognitionSystem/blob/master/report/double-matrix-factorization%20.pdf)
 - [demo](https://github.com/hualiu01/SparkRecognitionSystem/blob/master/report/CloudCompluting%20final%20presentation.pptx.pdf) 
